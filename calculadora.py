@@ -9,18 +9,26 @@ numero_1 = int(input("Digite seu primeiro número: "))
 numero_2 = int(input("Digite seu segundo número: "))
 
 # Soma
-print('{} + {} = '.format(numero_1, numero_2))
-print(numero_1 + numero_2)
+if operação == '+':
+    print('{} + {} = '.format(numero_1, numero_2))
+    print(numero_1 + numero_2)
 
 # Subtração
-print('{} - {} = '.format(numero_1, numero_2))
-print(numero_1 - numero_2)
+elif operação == '-':
+    print('{} - {} = '.format(numero_1, numero_2))
+    print(numero_1 - numero_2)
 
 # Multiplicação
-print('{} * {} = '.format(numero_1, numero_2))
-print(numero_1 * numero_2)
+elif operação == '*':
+    print('{} * {} = '.format(numero_1, numero_2))
+    print(numero_1 * numero_2)
 
 # Divisão
-print('{} / {} = '.format(numero_1, numero_2))
-print(numero_1 / numero_2)
+elif operação == '/':
+    print('{} / {} = '.format(numero_1, numero_2))
+    print(numero_1 / numero_2)
+
+else:
+    print('Você não digitou um operador válido, execute o programa novamente.')
+
 
