@@ -33,6 +33,6 @@ Por favor, selecione a operação desejada:
     else:
         print('Você não digitou um operador válido, execute o programa novamente.')
 
-# Chamamos calculate fora da função
+# Chamamos calculate() fora da função
 calculate()
 
