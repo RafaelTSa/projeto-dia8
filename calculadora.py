@@ -1,3 +1,10 @@
+operação = input('''
+Por favor, selecione a operação desejada:
++ para soma
+- para subtração
+* para multiplicação
+/ para divisão
+''')
 numero_1 = int(input("Digite seu primeiro número: "))
 numero_2 = int(input("Digite seu segundo número: "))
 
